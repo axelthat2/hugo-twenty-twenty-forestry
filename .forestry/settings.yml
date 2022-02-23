@@ -43,7 +43,7 @@ upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
 use_front_matter_path: false
-file_template: ":filename:"
+file_template: 'https://scrapcars-content.s3.amazonaws.com/:filename:'
 build:
   preview_env:
   - HUGO_ENV=staging
