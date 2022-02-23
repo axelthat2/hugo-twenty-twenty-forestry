@@ -39,8 +39,8 @@ sections:
 - type: document
   path: config.toml
   label: Configuration
-upload_dir: static/images
-public_path: "/images"
+upload_dir: forestry
+public_path: forestry
 front_matter_path: ''
 use_front_matter_path: false
 file_template: 'https://scrapcars-content.s3.amazonaws.com/:filename:'
